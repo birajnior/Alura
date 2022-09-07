@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;;
+  }
+  
+  .body{
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background: #58AFE4;
+    background: -moz-linear-gradient(left, #58AFE4 0%, #2477A7 50%, #58AFE4 100%);
+    background: -webkit-linear-gradient(left, #58AFE4 0%, #2477A7 50%, #58AFE4 100%);
+    background: linear-gradient(to right, #58AFE4 0%, #2477A7 50%, #58AFE4 100%);
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 90px;
+  }
+  
+  .txt_input{
+    text-align: center;
+    font-size: 1.0rem;
+    font-weight: bold;
+  }
+  
+  th, td{
+  padding: 0.3rem;
+  text-align: center;
+  width: 50rem;
+  font-size: 1.5rem;
+  }
+  
+  .tabela{
+    padding: 6rem;
+    margin: auto;
+    
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-title-th{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+  
+  .page-td{
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  
+  .page-td-resultado{
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  
+  .text-success{
+    color: greenyellow;
+    text-align: center;
+  }
+  
+  .text-danger{
+    color: red;
+  }
+  
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200;
+  }
+  
+  .alura-logo {
+    width: 140px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  
+  .imagemNota{
+    width: 25vh;
+    margin: 25 auto;
+  
+  }
+  
+  .footer{
+    color: #ffffff;
+    font-weight: 200;
+  }
