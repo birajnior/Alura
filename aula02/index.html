@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">    
 </head>
 <body>
+
+    <span id="taxInfo"></span>
+
     <div class="container">
         <h1 class="page-title">
           Conversor de moedas
@@ -19,9 +22,19 @@
 
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
 
-        <label for="moeda">Insira o valor</label><br>
-        <input type="number" id="valor" size="2" /><br>
-        <button type="submit" onclick="Converter()">Converter</button>
+        <div>
+            <!-- <label for="moeda">Insira o valor</label><br> -->
+            <select id="moeda"></select>
+            <input type="number" id="valor" size="2"  value="1"/><br>
+            <!-- <button type="submit" onclick="Converter()">Converter</button> -->
+        </div>
+        <button id="swap">↕️</button>
+        <div> 
+            <select id="seg-moeda"></select>           
+            <input type="number" id="seg-valor" size="2"  value=""/><br>
+            <!-- <button type="submit" onclick="Converter()">Converter</button> -->
+        </div>
+
 
         <h2 id="valorConvertido"></h2>
       </div>
