@@ -73,11 +73,7 @@ btnCalc.addEventListener('click', function(e) {
     let nota4 = parseFloat(cxNota4.value)
     let media = calcularMedia(nota1, nota2, nota3, nota4)
 
-    console.log(nota1)
-    console.log(nota2)
-    console.log(nota3)
-    console.log(nota4)
-    console.log(media)
+    
 
     if (isNaN(media) || media < 0) {
         console.log('Não é um número')
@@ -91,6 +87,11 @@ btnCalc.addEventListener('click', function(e) {
 })
 
 btnLimpar.addEventListener('click', function() {
+    cxNota1.value = ''
+    cxNota2.value = ''
+    cxNota3.value = ''
+    cxNota4.value = ''
+    cxMedia.value = ''
     cxSituacao.classList.remove('aprovado')
     cxSituacao.classList.remove('reprovado')
 })
