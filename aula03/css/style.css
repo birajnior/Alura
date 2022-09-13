@@ -65,3 +65,8 @@ body {
     margin-top: 16px;
   }
   
+  #tentativas {
+    color: #ffffff;
+    font-size: 2em;
+    margin-top: 20px;
+  }
