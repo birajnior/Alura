@@ -2,7 +2,6 @@ let numeroSecreto = parseInt(Math.random() * 11)
 let dica = document.getElementById('dica')
 let tentativas = 3
 let chances = document.getElementById('tentativas')
-let verificaNum = parseInt(document.getElementById('valor').value)
 
 
 const audioErrou = document.querySelector('audio')
@@ -12,7 +11,7 @@ function chutar() {
     let resultado = document.getElementById('resultado')
     let chute = parseInt(document.getElementById('valor').value)
     tentativas = tentativas - 1    
-    chances.innerHTML = `Você tem ${tentativas} tentativas!`
+    chances.innerHTML = `Você tem ${tentativas} tentativas! <br> ${chute < numeroSecreto ? 'O número secreto é maior que o seu chute!':'O número secreto é menor que o seu chute!'}`
 
 
     if (chute == numeroSecreto) {  
@@ -21,7 +20,7 @@ function chutar() {
         chances.innerHTML = "Você ganhou"   
         document.getElementById('botao').innerHTML = "<button type='submit' onclick='window.location.reload()'>Novo Jogo</button>"
     } else if (tentativas == 0) {
-        chances.innerHTML = "Você perdeu, o número era " + numeroSecreto         
+        chances.innerHTML = "Você perdeu, o número secreto era " + numeroSecreto         
     } else if (tentativas < 0) {
         document.addEventListener('click', function () {
             chances.innerHTML = "Suas chances acabaram, comece um novo jogo!"
