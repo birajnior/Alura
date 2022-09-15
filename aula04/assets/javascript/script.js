@@ -1,11 +1,13 @@
 
-let listaFilmes = ['Yesterday',' A chegada', ' Escola do Rock']
-
-listaFilmes.push(' Duro de Matar')
 
 
-for (let i = 0; i < 4; i ++) {
-    document.write('<p id="teste">' + i + '</p>')
-    document.write('<p id="teste">' + listaFilmes [i] + '</p>')
-    
-}
+// for (let i = 0; i < listaFilmes.length; i++) {
+//     document.write('<img src=' + listaFilmes[i] + '>')
+
+// }
+
+// img0.href = "https://alura.com.br/"
+// img0.src= listaFilmes[0]
+
+// window.open("https://youtu.be/-RkXHIEWq0w", "_blank")
+
