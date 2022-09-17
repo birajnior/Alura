@@ -149,11 +149,13 @@ body {
 }
 
 .form-wrapper button {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
   border: 0;
   color: #ffffff;
   background: #da1e26;
   font-weight: bold;
-  padding: 15px 20px;
+  padding: 10px 15px;
   font-size: 1.3em;
   border-radius: 6px;
   margin-top: 20px;
