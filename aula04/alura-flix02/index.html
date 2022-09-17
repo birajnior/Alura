@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imersão Dev - Aula 05</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
         <div class="cabecalho">
-            
             <a href="#">
                 <h1 class="page-title">Aluraflix</h1>
             </a>
@@ -23,26 +25,35 @@
                 <a href="#">Adicionados Recentes</a>
             </nav>
 
+            <div class="search-box">
+                <input class="search-text" type="text" name="" placeholder="Faça a sua pesquisa">
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+
             <a href="https://alura.com.br/" target="_blank">
                 <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
             </a>
-        </div>
 
+        </div>
     </header>
-
-    <div class="container">
-
-
-        <p class="page-subtitle">
-            Qual seu filme favorito?
-        </p>
-        <div class="form-wrapper">
-            <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
-            <button onClick="adicionarFilme()">Adicionar Filme</button>
+    <main>
+        <div class="container">
+            <p class="page-subtitle">
+                Adicione seus filmes e séries favoritos!
+            </p>
+            <div class="form-wrapper">
+                <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+                <input type="text" id="nome-filme" placeholder="Insira o nome do Filme/Série">
+                <button type="submit" onClick="adicionarFilme()">Adicionar Filme</button>
+            </div>
         </div>
-    </div>
-    <div id="listaFilmes"></div>
-    
+        <div class="filmes-series">
+            <div id="listaFilmes"></div>
+        </div>
+    </main>
+
     <script src="assets/javascript/script.js"></script>
 </body>
 
