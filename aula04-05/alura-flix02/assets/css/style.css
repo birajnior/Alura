@@ -30,8 +30,12 @@ header a {
   margin: 10px 0 0 15px;
   font-family: 'Bebas Neue', cursive;
   font-size: 2.5em;
-  text-shadow: 0 0 1px #FFF, 0 0 0px #FFF, 0 0 2px #FFF, 0 0 5px #ff1818, 0 0 7px #ff1818, 0 0 7px #ff1818, 0 0 7px #ff1818, 0 0 7px #ff1818;
-  color: #FFFFFF;
+  background: linear-gradient(90deg, #ff1818, #fd98b6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  /* text-shadow: 0 0 1px #FFF, 0 0 0px #FFF, 0 0 2px #FFF, 0 0 5px #ff1818, 0 0 7px #ff1818, 0 0 7px #ff1818, 0 0 7px #ff1818, 0 0 7px #ff1818;
+  color: #FFFFFF; */
 }
 
 nav {  
