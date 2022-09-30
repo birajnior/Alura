@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 98vw;
+    height: 93vh;
+    background: rgb(4, 24, 50);
+    background: linear-gradient(133deg, rgba(4, 24, 50, 1) 14%, rgba(52, 104, 167, 1) 97%);
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    left: 90px;
+    top: 49px;
+    margin: 64px;
+    border-radius: 30px;
+    left: 90px;
+    top: 49px;
+    background: #ECF4FF;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    left: 154px;
+    top: 79px;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.55));
+}
+
+.title {
+    margin: 20px;
+}
+
+.title h1 {
+    font-size: 2.7em;
+    font-weight: bold;
+    line-height: 42px;
+    color: #1C1C1C;
+}
+
+.title h3 {
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 42px;
+    color: #1C1C1C;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;    
+    
+}
+
+.projects a {
+    text-decoration: none;
+}
