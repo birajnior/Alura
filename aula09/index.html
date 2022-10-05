@@ -7,24 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="container">
-        <header class="profile">
-            <img class="profile-img" src="https://avatars.githubusercontent.com/u/96500363?v=4">
-            <div class="title">
-                <h1>Ubiratan Júnior</h1>
-                <h3>Estudande de Front-End e Defesa Cibernética</h3>
+        <header class="header">
+            <div class="profile">                
+                <img class="profile-img" src="https://avatars.githubusercontent.com/u/96500363?v=4">
+                <div class="title">
+                    <h1>Ubiratan Júnior</h1>
+                    <h3>Estudande de Front-End e Defesa Cibernética</h3>
+                </div>
             </div>
-            <div class="theme">
+            <!-- <div class="theme">
                 <button onclick="changeTheme()">Alterar Tema</button>
-            </div>   
+            </div>    -->
             
-            <!-- <div class="change-theme">
-                <input type="checkbox" class="on-off-theme" id="on-off">
+            <div class="change-theme">
+                <input type="checkbox" onclick="changeTheme()" class="on-off-theme" id="on-off">
                 <label for="on-off" class="on-off-btn"></label>
-            </div>          -->
+            </div>         
         </header>
         <main class="projects">
             <ul class="projects-title">Projetos</ul>
@@ -40,6 +43,23 @@
             <li class="projects-items"><a href="https://birajnior.github.io/links/" target="_blank">🔗 Links</a></li>
         </main>
     </div>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/junior.gomes.967/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/birajrpersonal" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/birajnior/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5511970839925&text=Ol%C3%A1!" target="_blank"><i
+                            class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ubiratanbernardo/" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://github.com/birajnior" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
