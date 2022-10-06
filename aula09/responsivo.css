@@ -1,0 +1,66 @@
+@media (max-width: 600px) {
+
+    .container {
+        left: 45px;
+        top: 25px;
+        margin: 32px;
+        padding: 25px;
+    }
+
+    .profile-img {
+        width: 80px;
+        height: 80px;
+        left: 77px;
+        top: 38px;
+        margin-top: 15px;
+    }
+    
+    .title {
+        margin: 15px;
+    }
+    
+    .title h1 {
+        font-size: 1.9em;
+        font-weight: bold;
+        line-height: 35px;
+    }
+    
+    .title h3 {        
+        font-size: 1em;
+        line-height: 30px;
+    }
+
+    .projects {
+        margin-top: 15px;
+        padding: 15px;
+    }
+    
+    .projects-title {
+        font-size: 1.9em;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    
+    .projects-items {
+        font-size: .9em;
+    }
+
+    .projects-items a {
+        line-height: 35px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+    
+    .footer-content {
+        margin-top: 10px;
+    }
+    
+    .socials {
+        margin: 0;    
+    }
+    
+}
