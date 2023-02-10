@@ -4,7 +4,7 @@ titulo.textContent = "Aparecida Nutricionista"
 let pacientes = document.querySelectorAll('.paciente')
 
 for (let i = 0; i < pacientes.length; i++) {
-    
+
     let paciente = pacientes[i]
 
     let tdPeso = paciente.querySelector(".info-peso")
@@ -22,12 +22,14 @@ for (let i = 0; i < pacientes.length; i++) {
         console.log('Peso inválido!')
         pesoEhValido = false
         tdImc.innerHTML = 'Peso inválido!'
+        paciente.classList.add('paciente-invalido')
     }
 
     if (altura <= 0 || altura >= 3.00) {
         console.log('Altura inválida!')
         alturaEhValia = false
         tdImc.innerHTML = 'Altura inválida!'
+        paciente.classList.add('paciente-invalido')
     }
 
     if (pesoEhValido && alturaEhValia) {
